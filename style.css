@@ -1,0 +1,24 @@
+.owl-prev{
+    left: 1rem;
+}
+.owl-next{
+    right: 1rem;
+}
+.owl-prev,.owl-next{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+    background: 0 0;
+    color: white;
+    border: none;
+    padding: 0!important;
+    font: inherit;
+    background-color: black;
+    width: 20px;
+}
